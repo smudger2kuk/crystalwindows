@@ -12,7 +12,8 @@ body {
 .header {
 	padding-left: 10px;
 	padding-top: 10px;
-	min-height: 100px;
+	min-height: 50px;
+    background-color: #fff;
 }
 
 .branding {
@@ -20,15 +21,19 @@ body {
 	width: 100%;
 }
 .brand-icon {
-	color: darkblue;
-	margin: 0 auto;
-	text-align: center;
+	color: #1F618D;
+    float: left;
+    padding-left: 50px;
+    
 }
 
 .brand-name {
-	color: darkblue;
+	color: #1F618D;
+    font-size: 1.6em;
 	font-weight: 800;
-	line-height: 15px
+    float: left;
+    line-height: 0;
+    padding-left: 10px;
 }
 
 .main-image {
@@ -56,15 +61,13 @@ body {
 	height: 50px;
 	width: 50px;
 	position: fixed;
-	right: 0;
+	left: 0;
 	top: 10px;
-	background-color: darkblue;
-	box-sizing: border-box;
 }
 
 #collapsed {
-	color: #fff;
-	font-size: 2em;
+	color: #1F618D;
+	font-size: 1.6em;
 	text-decoration: none;
 	padding-left: 10px
 }
